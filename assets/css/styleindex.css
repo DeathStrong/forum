@@ -1,0 +1,36 @@
+
+/* start nav style */
+nav{
+    position: relative;
+    justify-content:space-between;
+    text-align: center;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+/* End nav style */
+
+/* start left forum style */
+#left_forum{
+    display: inline-block;
+    width: 500px;
+
+}
+/* end left forum style */
+
+/* start right forum style */
+#right_forum{
+    display: inline-block;
+    width: 500px;
+}
+/* end right forum style */
+
+/* Müəllim burada sectionları yan yana gətirə bilmədim. Səbəbini qeyd edərdiniz zəhmət olmasa */
+#forum{
+    display:flex ;
+    width: 100%;
+}

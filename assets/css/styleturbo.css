@@ -1,0 +1,14 @@
+/* start nav style */
+nav{
+    position: relative;
+    justify-content:space-between;
+    text-align: center;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+/* End nav style */

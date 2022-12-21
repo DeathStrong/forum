@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styleturbo.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Start head -->
+    <!-- nav  və linlər aktivdir hər səhifədə nümunələr ilə tanış ola bilərsiniz -->
+    <head>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Adl</a></li>
+                <li><a href="./turbo.html">Turbo</a></li>
+                <li><a href="./test.html">My test</a></li>
+            </ul>
+        </nav>
+    </head>
+    <!-- start forum -->
+
+    <form method="get">
+
+        <label for="marka">Marka:</label>
+
+        <select id="marka" name="marka" size="1">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="BMW">BMW</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Ford">Ford</option>
+          <option value="Audi">Audi</option>
+          <option value="Aston Martin">Aston Martin</option>
+        </select>
+
+        <label for="Model">Model:</label>
+
+        <select id="Model" name="Model" size="1">
+          <option value="volvo">sx90</option>
+          <option value="Saab">I5</option>
+          <option value="Fiat">M8</option>
+          <option value="BMW">E350</option>
+          <option value="Mercesdes">yaris</option>
+          <option value="Ford">insight</option>
+          <option value="Audi">A3</option>
+          <option value="Aston Martin">Vanquish</option>
+        </select>
+        
+        <label for="hamısı">Hamısı</label>
+        <input 
+         id="Hamısı" 
+         name="tip" 
+         type="radio"/>
+        
+        <label for="yeni">Yeni</label>
+        <input 
+         id="yeni" 
+         name="tip" 
+         type="radio"/>
+        
+        <label for="sürülmüş">Sürülmüş</label>
+        <input 
+        id="sürülmüş"
+        name="tip" 
+        type="radio"/>
+
+        <!--  bu hissəni data list kimi vermıyimi söyləmişdiniz -->
+            <label for="Şəhər">Şəhər:</label>
+            <input list="Şəhərlər" name="Şəhər" id="Şəhər">
+            <datalist id="Şəhərlər">
+              <option value="Bakı">
+              <option value="Quba">
+              <option value="Lənkəran">
+              <option value="Xaçmaz">
+              <option value="Xudat">
+              <option value="Sumqayıt">
+                
+            </datalist>
+        <br>
+
+        <input placeholder="Qiymət, min" type="text">
+        <input placeholder="Qiymət, max" type="text">
+
+        <label for="deyer">AZN:</label>
+        <select id="deyer" name="deyer" size="1">
+          <option value="AZN">AZN</option>
+          <option value="EURO">EURO</option>
+          <option value="Dollar">Dollar</option>
+        
+      </form>
+      <!-- end forum -->
+</body>
+</html>
